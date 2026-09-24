@@ -8,7 +8,7 @@
 
 ## Настройка
 
-1. Создайте приложение на портале (dev.пантеон.com)[dev.пантеон.com]
+1. Создайте приложение на портале [dev.пантеон.com](dev.пантеон.com)
 2. Укажите в приложении на портале callback URL:
    `http://localhost:1230/callback`.
 3. Выдайте приложению scopes `chat:read`, `chat:write`, `streams:manage` и
