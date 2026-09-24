@@ -8,13 +8,14 @@
 
 ## Настройка
 
-1. Укажите в приложении на портале callback URL:
+1. Создайте приложение на портале (dev.пантеон.com)[dev.пантеон.com]
+2. Укажите в приложении на портале callback URL:
    `http://localhost:1230/callback`.
-2. Выдайте приложению scopes `chat:read`, `chat:write`, `streams:manage` и
+3. Выдайте приложению scopes `chat:read`, `chat:write`, `streams:manage` и
    `user:read`.
-3. В `PANTHEON_CHANNEL_ID` укажите числовой ID профиля владельца нужного чата.
-4. Скопируйте `.env.example` в `.env`.
-5. Заполните `PANTHEON_CLIENT_ID`, `PANTHEON_CLIENT_SECRET` и числовой
+4. В `PANTHEON_CHANNEL_ID` укажите числовой ID профиля владельца нужного чата.
+5. Скопируйте `.env.example` в `.env`.
+6. Заполните `PANTHEON_CLIENT_ID`, `PANTHEON_CLIENT_SECRET` и числовой
    `PANTHEON_CHANNEL_ID`. Для public-клиента secret оставьте пустым.
 
 ## Запуск
